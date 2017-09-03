@@ -40,7 +40,7 @@ export function selectedNews(id) {
   }
 }
 
-export function clearSelectedNews(id) {
+export function clearSelectedNews() {
   return {
     type: 'CLEAR_SELECTED_NEWS',
     payload: []
